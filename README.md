@@ -1,6 +1,7 @@
 # Laravel Nuxt Sanctum Starter
 
-This is a fork on https://github.com/zondycz/laravel-nuxt-sanctum to be used for Cypress testing
+This is a fork of https://github.com/zondycz/laravel-nuxt-sanctum to be used for Cypress testing
+
 
  Nuxt.js application which will demo the authentication flow using Laravel sanctum. 
  
