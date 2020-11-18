@@ -1,14 +1,14 @@
 describe('/', () => {
   beforeEach(() => {
     // login programmatically
-    // cy.login()
+    cy.sanctumLogin()
 
     cy.visit('/')
   })
 
   it('has correct heading', () => {
 
-    cy.contains('Dashboard')
+    cy.get('h1').contains('Dashboard')
 
   })
 })
